@@ -1,8 +1,37 @@
 /* font */
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Manrope&family=Poppins:wght@500;600;700&display=swap');
 
-
-
+body{
+  margin:0;
+}
+/* Header */
+.header{
+  padding-top: 50px;
+  padding-left: 120px;
+  display: flex;
+}
+.header-title{
+  font-family: Poppins;
+  font-weight: bold;
+  font-size: 24px;
+  color: #3A3A3A;
+}
+.header-details{
+  display: flex;
+  padding-top: 40px;
+  padding-left: 450px;
+  height: 38px;
+  width: 465;
+}
+.header-details a{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  color: #3A3A3A;
+  text-decoration: none;
+  padding-right: 30px;
+}
 /* main */
 /* main{
   background-color: #AAAAAA;
@@ -15,13 +44,13 @@
 }
 .title-img{  
   padding-left: 133px;
-  padding-top: 185px;
+  padding-top: 85px;
 }
 .title{
   display: flex;
   flex-direction: column;
   gap: 16px;
-  padding-top: 280px;
+  padding-top: 120px;
   padding-left: 120px;
 }
 .title a{
@@ -65,7 +94,7 @@
 .popular-collection{
   padding-left: 196px;
   padding-right: 196px;
-  padding-top: 100px;
+  padding-top: 60px;
 }
 .popular-collection h1{
   font-family: 'Poppins', sans-serif;
@@ -147,4 +176,38 @@
   position: absolute;
   right: 196px;
   padding-top: 30px;
+}
+
+/* footer */
+footer{
+  background-color: rgb(1, 1, 39);
+  color: #D9DBE1;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 40px;
+  width:100%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin-top: 80px;
+  /* position: relative; */
+}
+.footer-content h1{
+  font-family: Poppins;
+  font-weight: bold;
+  font-size: 24px;
+  margin: 0;
+}
+.footer-content h3{
+  font-family: Manrope;
+  font-weight: bold;
+  font-size: 14px;
+  margin: 0;
+}
+.footer-content i{
+  padding: 30px 10px 20px 10px;
+}
+.footer-content a{
+  text-decoration: none;
+  color: #D9DBE1;
 }
