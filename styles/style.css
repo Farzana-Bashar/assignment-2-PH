@@ -178,6 +178,25 @@ body{
   padding-top: 30px;
 }
 
+/* Product (Extra part) */
+.product img{
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  padding-right: 20px;
+}
+.products-img{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  padding-top: 120px;
+  padding-right: 100px;
+  align-items: center;
+  justify-content: center;
+}
+.products{
+  display: flex;
+}
+
 /* footer */
 footer{
   background-color: rgb(1, 1, 39);
